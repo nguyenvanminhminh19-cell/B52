@@ -2525,7 +2525,7 @@ function savePredictionToHistory(type, phien, prediction, confidence) {
     phien: phien.toString(),
     du_doan: normalizeResult(prediction),
     ti_le: `${confidence}%`,
-    id: '@tiendataox',
+    id: '@vanminh2603',
     timestamp: new Date().toISOString()
   };
   
@@ -2565,7 +2565,7 @@ app.get('/b52', async (req, res) => {
       phien: nextPhien.toString(),
       du_doan: normalizeResult(result.prediction),
       ti_le: `${result.confidence}%`,
-      id: '@tiendataox'
+      id: '@vanminh2603'
     });
   } catch (error) {
     console.error('Error:', error);
