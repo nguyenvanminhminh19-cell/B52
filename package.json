@@ -2,16 +2,14 @@
   "name": "b52-api",
   "version": "1.0.0",
   "description": "B52 Predictor API",
-  "type": "module",
   "main": "b52.js",
   "scripts": {
     "start": "node b52.js",
     "dev": "node --watch b52.js"
   },
   "dependencies": {
-    "@fastify/cors": "^11.1.0",
-    "fastify": "^5.6.0",
-    "node-fetch": "^3.3.2"
+    "axios": "^1.11.0",
+    "express": "^4.21.2"
   },
   "engines": {
     "node": ">=20"
